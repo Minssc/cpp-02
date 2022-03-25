@@ -5,24 +5,24 @@
 #                                                     +:+ +:+         +:+      #
 #    By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/03/12 20:02:04 by minsunki          #+#    #+#              #
-#    Updated: 2022/03/25 16:12:32 by minsunki         ###   ########.fr        #
+#    Created: 2022/03/15 13:09:39 by minsunki          #+#    #+#              #
+#    Updated: 2022/03/25 11:56:08 by minsunki         ###   ########seoul.kr   #
 #                                                                              #
 # **************************************************************************** #
 
-NAME			=		ex00
+NAME			=		ex03
 
 SRCF			=		.	
 
-FIL_M			=		main Fixed
+FIL_M			=		main Fixed Point bsp
 
 SRCS_M			=		$(addsuffix .cpp, $(FIL_M))
 
 OBJS_M			=		$(SRCS_M:.cpp=.o)
 
 CC				=		c++
-WFLAG			=		-Wall -Wextra -Werror
-CPPFLAG			=		-std=c++98 
+#WFLAG			=		-Wall -Wextra -Werror
+CPPFLAG			=		-std=c++98
 RM				=		rm -f
 
 %.o				:		%.cpp
