@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 18:17:39 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/25 11:54:53 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/25 21:11:02 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int main( void ) 
 {
-	std::cout.precision(16);
+	// std::cout.precision(16);
 	Fixed a;
 	Fixed const b( Fixed( 5.05f ) * Fixed( 2 ) );
 	std::cout << a << std::endl;
