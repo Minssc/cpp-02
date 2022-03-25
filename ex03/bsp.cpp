@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 11:56:55 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/25 16:08:47 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/25 16:13:18 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ bool	bsp(Point const a, Point const b, Point const c, Point const point)
 	d2 = sign(point, b, c);
 	d3 = sign(point, c, a);
 
-	std::cout << d1 << ", " << d2 << ", " << d3 << std::endl;
+	// std::cout << d1 << ", " << d2 << ", " << d3 << std::endl;
 	if (!d1 || !d2 || !d3)
 		return (false);
 	has_neg = (d1 < 0) || (d2 < 0) || (d3 < 0);

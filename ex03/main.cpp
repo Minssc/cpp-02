@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 18:17:39 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/25 16:07:34 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/25 16:14:38 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int main( void )
 	// a = a;
 	// std::cout << a.getX() << "," << a.getY() << std::endl;
 
-	Point a(Fixed(0),Fixed(0));
+	Point a(Fixed(0.0f),Fixed(0.0f));
 	Point b(Fixed(10),Fixed(0));
 	Point c(Fixed(0),Fixed(10));
 
