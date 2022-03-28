@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 18:17:39 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/25 21:11:02 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 12:51:39 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,8 @@ int main( void )
 	std::cout << (Fixed(42) < Fixed(42.42f)) << std::endl;
 	std::cout << (Fixed(42) > Fixed(42.42f)) << std::endl;
 	std::cout << (Fixed(42) == Fixed(42)) << std::endl;
+	std::cout << (Fixed(42) != Fixed(42)) << std::endl;
+	std::cout << Fixed::min(Fixed(42), Fixed(0.42f)) << std::endl;
+	
 	return 0;
 }

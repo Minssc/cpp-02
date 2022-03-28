@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 18:18:06 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/24 23:26:34 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 12:50:15 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ class	Fixed
 
 	public:
 		Fixed(void);
-		Fixed(int a);
-		Fixed(float a);
+		Fixed(const int a);
+		Fixed(const float a);
 		Fixed(const Fixed &a);
 		~Fixed(void);
 
