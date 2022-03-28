@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 11:56:34 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/25 13:14:14 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/28 12:56:37 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 # define __POINT_HPP__
 
 # include "Fixed.hpp"
-
-# define Point V2d
 
 class Point
 {
