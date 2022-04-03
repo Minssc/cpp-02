@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 11:56:28 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/25 12:17:13 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/04/03 17:02:22 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,9 @@ Point::~Point(void) {}
 const Point	&Point::operator=(const Point &p)
 {
 	// *this = Point(p);
-	const_cast<Fixed&>(_x) = p.getX();
-	const_cast<Fixed&>(_y) = p.getY();
+	// const_cast<Fixed&>(_x) = p.getX();
+	// const_cast<Fixed&>(_y) = p.getY();
+	static_cast<void>(p);
 	return (*this);
 }
 
